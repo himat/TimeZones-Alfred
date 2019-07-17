@@ -202,7 +202,7 @@ while IFS='|' read -r city country timezone country_code telephone_code favourit
                   <icon>./flags/$flag_icon</icon>\
               </item>"
     fi
-done < "$timezone_file" | sort
+done < "$timezone_file"
 
 echo '</items>'
 
